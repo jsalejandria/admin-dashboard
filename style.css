@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Roboto:wght@500&display=swap');
+
+* {
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+}
+
+/* --- --- --- --- --- SIDEBAR --- --- --- --- --- --- */
+
+.sidebar {
+    background-color:#155e75;
+    width:250px;
+    display:flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content:start;
+    align-items: start;
+}
+
+.logo {
+    height:100px;
+    font-family: Roboto, 'Arial Narrow Bold', sans-serif;
+    color:white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.title {
+    margin-top:40px;
+}
+
+.menu {
+    height: 400px;
+    margin-top:10px;
+    display: grid;
+    grid-template-rows: repeat(9, 1fr);
+}
+
+.svgicon {
+    filter: invert(100%) sepia(1%) saturate(5018%) hue-rotate(35deg) brightness(116%) contrast(101%);
+}
+
+.sbitems {
+    display:flex;
+    align-items: center;
+    font-family:Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+    margin-left:15px;
+    padding-right:25px;
+}
+
+/* --- --- --- --- --- BANNER --- --- --- --- --- --- */
+
+.banner {
+    background-color: white;
+    height: 80px;
+    margin: 15px;
+    border-radius:10px;
+    box-shadow: 3px 3px #d6d3d1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-left, .banner-right {
+    display:flex;
+    align-items: center;
+}
+
+img {
+    height: 25px;
+    width: 25px;
+    margin-left:20px;
+}
+
+.dog {
+    height: 32px;
+    width: 32px;
+}
+
+.name {
+    margin:0px 25px 0px 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input {
+    height:25px;
+    width:250px;    
+    font-size: 16px;
+    margin-left:15px;
+    border-radius: 12px;
+    border: 1px solid #e7e5e4;
+    background-color: #e7e5e4;
+    padding:2px 8px;
+}
+
+button {
+    background-color: #155e75;
+    width: 100px;
+    height:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px 15px 0px;
+    padding:4px 8px;
+    border-radius: 15px;
+    box-shadow: 0.5px 0.5px #d6d3d1;
+}
+
+.divider {
+    margin: 0px 10px 0px;
+    font-size:30px;
+    font-weight: lighter;
+    color:#a8a8a8;
+}
+
+/* --- --- --- --- --- MAIN --- --- --- --- --- --- */
+
+.main {
+    background-color: #e7e5e4;
+}
+
+.maincontents {
+    display:grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.projects-wrapper {
+    display:grid;
+    grid-template:repeat(3, 1fr)/repeat(3, 1fr);
+    gap:35px;
+    margin: 30px 70px;
+}
+
+.projects-header {
+    margin:30px 50px 0px;
+}
+
+.projects {
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    min-width:0px;
+    min-height:0px;
+    height: 250px;
+    width: 250px
+    margin: 15px;
+    border-radius:10px;
+    box-shadow: 3px 3px #d6d3d1;
+    border-left: 15px solid #155e75;
+}
+
+.project-title {
+    margin: 25px 35px 10px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.project-description {
+    margin: 0px 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    flex:1 1 0;
+    min-width:0px;
+    min-height:0px;
+    overflow:hidden;
+}
+
+.project-actions {
+    margin:0px 30px 15px;
+    margin-top: auto;
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* --- --- --- --- --- ANNOUNCEMENTS --- --- --- --- --- --- */
+
+.announcements-header {
+    margin:40px 10px 10px;
+}
+
+.announcements-content {
+    background-color: white;
+    height: 350px;
+    width: 250px
+    margin: 15px;
+    margin-right:40px;
+    border-radius:10px;
+    box-shadow: 3px 3px #d6d3d1;
+    display:grid;
+    grid-template-row: 1fr 1fr;
+    align-items: center;
+    justify-content:center;
+    flex:1 1 0;
+    min-width:0px;
+    min-height:0px;
+    overflow:hidden;
+}
+
+.h-divider {
+    background-color: rgb(219, 221, 231);
+    height: 1px;
+    width: 85%;
+    justify-self: center;
+  }
+
+.a-title {
+    font-size: 18px;
+    margin:5px 10px;
+}
+
+.a-content {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin:8px 10px;
+}
+
+/* --- --- --- --- --- TICKETS --- --- --- --- --- --- */
+
+.tickets-header {
+    margin:70px 10px 10px;
+}
+
+.tickets-content {
+    background-color: white;
+    height: 350px;
+    width: 250px
+    margin: 15px;
+    margin-right:40px;
+    padding:2px;
+    border-radius:10px;
+    box-shadow: 3px 3px #d6d3d1;
+}
+
+.tickets-content {
+    display:flex;
+    flex-direction: column;
+}
+
+.tickets-content > .h-divider {
+    margin: 0px auto;
+}
+
+.tickets-content > h3 {
+    font-size:12px;
+    color: #57534e;
+    margin:10px 20px 30px;
+}
+
+.tickets-content > p {
+    font-size:16px;
+    justify-items: center;
+    margin:10px 25px;
+}   
