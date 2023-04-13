@@ -1,2 +1,4 @@
 # admin-dashboard
-TOP Project: Admin Dashboard
+The Odin Project: Admin Dashboard
+
+https://jsalejandria.github.io/admin-dashboard/
