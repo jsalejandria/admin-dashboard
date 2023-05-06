@@ -27,7 +27,6 @@ body {
     flex-direction: column;
     flex-shrink: 0;
     justify-content:start;
-    align-items: start;
 }
 
 .logo {
