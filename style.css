@@ -6,6 +6,11 @@
     padding:0;
 }
 
+html, body {
+    margin:0px;
+    min-height:100%;
+}
+
 body {
     background-color: white;
     display:flex;
@@ -17,7 +22,6 @@ body {
 .sidebar {
     background-color:#155e75;
     width:250px;
-    height:100vh;
     display:flex;
     flex-direction: column;
     flex-shrink: 0;
@@ -129,7 +133,6 @@ button {
 
 .main {
     background-color: #e7e5e4;
-    height:100vh;
 }
 
 .maincontents {
