@@ -2,4 +2,4 @@
 
 TOP Project: Admin Dashboard
 
-jsalejandria.github.io/admin-dashboard/
+https://jsalejandria.github.io/admin-dashboard/
